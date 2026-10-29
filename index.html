@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="巴別圖書館 Library of Babel：在 Minecraft 中建立一座可以真正閱讀的圖書館。" />
+  <title>巴別圖書館｜Library of Babel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">LIBRARY OF BABEL</a>
+    <nav>
+      <a href="#about">計畫</a>
+      <a href="#download">下載</a>
+      <a href="#changelog">更新</a>
+      <a href="#support">支持</a>
+      <a id="githubNav" href="#" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="eyebrow">A MINECRAFT READING PROJECT</div>
+      <h1>巴別圖書館</h1>
+      <div class="english-title">LIBRARY OF BABEL</div>
+      <p class="lead">在 Minecraft 裡，建立一座可以真正閱讀的圖書館。</p>
+
+      <div class="hero-actions">
+        <a class="btn primary" id="latestDownload" href="#" target="_blank" rel="noreferrer">下載最新版</a>
+        <a class="btn ghost" id="githubHero" href="#" target="_blank" rel="noreferrer">查看 GitHub</a>
+      </div>
+
+      <div class="version-line">
+        <span class="pill">最新版本 <strong id="latestVersion">v0.1.0</strong></span>
+        <span class="pill">Minecraft <strong id="minecraftVersion">1.12.2</strong></span>
+        <span class="pill"><strong id="loader">Forge 1.12.2</strong></span>
+      </div>
+    </section>
+
+    <section id="about" class="panel grid-2">
+      <div>
+        <div class="section-kicker">THE PROJECT</div>
+        <h2>一座會不斷長大的圖書館</h2>
+        <p>
+          「巴別圖書館」是一個以遊戲內閱讀為核心的 Minecraft 模組計畫。
+          它不是單純把幾本書塞進遊戲，而是希望逐步建立一個能收藏、閱讀、
+          保存進度並持續擴充的虛擬圖書館。
+        </p>
+        <p class="muted">
+          每一次更新，都可以加入新的書籍、新的閱讀功能，以及新的圖書館體驗。
+        </p>
+      </div>
+
+      <div class="feature-list">
+        <div class="feature">
+          <span>01</span>
+          <div><b>完整閱讀</b><small>在遊戲內閱讀長篇文本與書籍內容。</small></div>
+        </div>
+        <div class="feature">
+          <span>02</span>
+          <div><b>書籤系統</b><small>闔上書本後，下次仍回到原本頁數。</small></div>
+        </div>
+        <div class="feature">
+          <span>03</span>
+          <div><b>時間流動</b><small>閱讀時，Minecraft 世界仍可持續運作。</small></div>
+        </div>
+        <div class="feature">
+          <span>04</span>
+          <div><b>持續藏書</b><small>透過版本更新逐步擴充館藏。</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-panel">
+      <div class="quote-mark">∞</div>
+      <blockquote>
+        一個世界可以很小，小到只是一個 Minecraft 存檔；<br>
+        一座圖書館可以很大，大到永遠沒有最後一本書。
+      </blockquote>
+    </section>
+
+    <section id="download" class="panel">
+      <div class="section-kicker">DOWNLOAD</div>
+      <h2>下載巴別圖書館</h2>
+
+      <div class="download-card">
+        <div>
+          <h3 id="downloadTitle">Library of Babel v0.1.0</h3>
+          <p id="downloadMeta">Minecraft 1.12.2 · Forge 1.12.2</p>
+          <p class="muted">
+            正式版本建議透過 GitHub Releases 發布。玩家永遠可以從這裡找到最新版。
+          </p>
+        </div>
+        <a class="btn primary" id="downloadButton" href="#" target="_blank" rel="noreferrer">前往下載</a>
+      </div>
+
+      <p class="tiny">安裝前請確認 Minecraft 與模組載入器版本相符。</p>
+    </section>
+
+    <section id="changelog" class="panel">
+      <div class="section-kicker">CHANGELOG</div>
+      <h2>更新紀錄</h2>
+      <div id="changelogList" class="timeline"></div>
+    </section>
+
+    <section id="support" class="panel support">
+      <div>
+        <div class="section-kicker">SUPPORT THE LIBRARY</div>
+        <h2>讓這座圖書館繼續長大</h2>
+        <p>
+          模組本體維持免費。如果你喜歡這個計畫，可以透過一次性打賞或每月支持，
+          幫助我投入更多時間增加館藏、修正問題並製作新的閱讀功能。
+        </p>
+      </div>
+
+      <div class="support-actions">
+        <a class="btn primary" id="tipButton" href="#" target="_blank" rel="noreferrer">☕ 一次性打賞</a>
+        <a class="btn ghost" id="monthlyButton" href="#" target="_blank" rel="noreferrer">♥ 每月支持</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="section-kicker">NOTICE</div>
+      <h2>聲明</h2>
+      <p class="muted">
+        This is not an official Minecraft product. It is not approved by or associated with Mojang or Microsoft.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div>© <span id="year"></span> 普洛米 · 巴別圖書館</div>
+    <div>Library of Babel · Minecraft Mod Project</div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
