@@ -4,7 +4,7 @@ window.SITE_CONFIG = {
   englishName: "Library of Babel",
 
   // 改成你的 GitHub repository 網址
-  githubUrl: "https://github.com/YOUR_USERNAME/library-of-babel",
+  githubUrl: "https://github.com/PrometheusMonk/library-of-babel",
 
   latest: {
     version: "v0.1.0",
@@ -12,12 +12,12 @@ window.SITE_CONFIG = {
     loader: "Forge 1.12.2",
 
     // 建立 Release 後可直接指向最新版
-    downloadUrl: "https://github.com/YOUR_USERNAME/library-of-babel/releases/latest"
+    downloadUrl: "https://github.com/PrometheusMonk/library-of-babel/releases/latest"
   },
 
   // 申請好收款頁後，把下面網址換掉
-  tipUrl: "https://ko-fi.com/YOUR_NAME",
-  monthlyUrl: "https://ko-fi.com/YOUR_NAME/tiers",
+  tipUrl: "https://ko-fi.com/PrometheusMonk",
+  monthlyUrl: "https://ko-fi.com/PrometheusMonk/tiers",
 
   changelog: [
     {
